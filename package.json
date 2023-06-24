@@ -18,6 +18,9 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+    "ignorePatterns": [
+      "path/to/file.js"
+    ],
     "extends": [
       "react-app",
       "react-app/jest"
@@ -34,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
   }
 }
